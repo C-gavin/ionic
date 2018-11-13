@@ -153,7 +153,7 @@ import { SelectPopover, SelectPopoverOption } from './select-popover-component';
  */
 @Component({
   selector: 'ion-select',
-  template:
+  template: 
     '<div *ngIf="!_text" class="select-placeholder select-text">{{placeholder}}</div>' +
     '<div *ngIf="_text" class="select-text">{{selectedText || _text}}</div>' +
     '<div class="select-icon">' +
